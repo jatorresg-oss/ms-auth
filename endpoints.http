@@ -1,0 +1,9 @@
+### ms-auth · Autenticación - pruebas manuales
+
+@host = http://127.0.0.1:8001
+
+### Estado del servicio
+GET {{host}}/health
+
+### Listado inicial (verifica la conexión a la base de datos)
+GET {{host}}/usuarios
